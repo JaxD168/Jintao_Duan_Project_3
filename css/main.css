@@ -1,0 +1,71 @@
+img video, object{
+    max-width: 100%;
+}
+
+body {
+    font-family: Impact;
+    font-size: 18px;
+}
+
+h1, h2 {
+    font-family: Impact;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#box1 {
+    background-color: pink;
+    height: 300px;
+}
+
+#box2 {
+    background-color: red;
+    height: 300px;
+}
+
+#box3 {
+    display: none;
+    background-color: blue;
+    height: 300px;
+}
+
+#box4 {
+    display: none;
+    background-color: yellow;
+    height: 300px;
+}
+
+@media screen and (min-width: 641px){
+    #column-con {
+        display: flex;
+    }
+
+    #box1 {
+        background-color: blue;
+        width: 400px;
+    }
+
+    #box2 {
+        background-color: purple;
+        width: 400px;
+    }
+
+    #box3 {
+        display: block;
+        background-color: grey;
+        width: 400px;
+    }
+
+    #box4 {
+        display: block;
+        background-color: brown;
+        width: 400px;
+    }
+}
